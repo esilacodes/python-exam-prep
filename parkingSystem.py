@@ -12,7 +12,7 @@ def calculate_fee(plate, exit_time):
     # Getting entry time using .get() to prevent crashes
     entry_time = parked_cars.get(plate)
     
-    # Check if the car exists in the system
+    # Check if the car exists in the systemm
     if entry_time is None:
         return f"Error: Vehicle with plate {plate} is not registered in the system."
     
